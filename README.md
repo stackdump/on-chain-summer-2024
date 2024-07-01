@@ -22,15 +22,16 @@ TakeAways
 - not every hosted node can keep up w/ block syncs every 60s
 - re: pflow.xyz generated code - TODO: re-think templates w/ Libraries to support larger state machines
 - pg_cron + pg_net from supabase postgres node worked out well, auto-syncing db every 1m
-- generating the Golang data types from .Sol makes interfacting w/ on-chain metamodels much easier
-- Same for TS-chain usage w/ hardhat to get contract types
+- generating the Golang data types from .Sol makes interfacing w/ on-chain metamodels much easier
+- ^ Same for TS-chain usage w/ hardhat to get contract types
 
   
 What's Here?
 ------------
 
 The Actual game implementation in phaser.js is completely missing.
-During hackathon works was done mostly on DB syncing w/ chain and smart contract model for crafting.
+
+During hackathon -- work was done mostly on DB syncing w/ chain and smart contract model for crafting.
 
 TODO
 ----
