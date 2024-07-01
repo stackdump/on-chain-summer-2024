@@ -1,0 +1,19 @@
+{
+  "name": "jetsam",
+  "version": "0.1.0",
+  "description": "a crafting-while falling game, try not to leave a crater!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phaser.js",
+    "game",
+    "onChainSummer"
+  ],
+  "author": "stackdump",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.80.1"
+  }
+}

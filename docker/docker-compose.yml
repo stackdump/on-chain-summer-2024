@@ -1,0 +1,9 @@
+services:
+  db:
+    image: supabase/postgres:15.1.1.61
+    container_name: pflow_db
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    restart: on-failure
